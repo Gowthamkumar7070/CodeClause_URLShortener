@@ -1,0 +1,101 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background: url('urlicon.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    position: relative;
+    background-color: rgb(94, 92, 94);
+    height: 410px;
+    width: 500px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 5px solid rgb(7, 8, 8);
+    border-radius: 30px;
+}
+
+#longurl{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 30%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(19, 0, 128);
+}
+
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 40%;
+    left: 15%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(15, 0, 128);
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 10%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(22, 23, 22);
+}
